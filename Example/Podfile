@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'NetWorker', :exclusive => true do
+  pod "NetWorker", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "NetWorker", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
