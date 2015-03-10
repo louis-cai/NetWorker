@@ -1,2 +1,0 @@
-PODS_TESTS_NETWORKER_GCC_PREPROCESSOR_DEFINITIONS = $(inherited) MNS_LOG=1 $(inherited) MNS_RAC=1
-PODS_TESTS_NETWORKER_OTHER_LDFLAGS = -framework "Foundation" -framework "UIKit"
