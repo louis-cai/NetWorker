@@ -31,14 +31,14 @@ PODS:
     - Expecta
     - FBSnapshotTestCase
   - FBSnapshotTestCase (1.5)
-  - NetWorker (0.1.0):
-    - NetWorker/Core (= 0.1.0)
-  - NetWorker/Core (0.1.0):
+  - NetWorker (1.0.0):
+    - NetWorker/Core (= 1.0.0)
+  - NetWorker/Core (1.0.0):
     - AFNetworking (~> 2.0)
-  - NetWorker/Logger (0.1.0):
+  - NetWorker/Logger (1.0.0):
     - AFNetworkActivityLogger
     - NetWorker/Core
-  - NetWorker/RAC (0.1.0):
+  - NetWorker/RAC (1.0.0):
     - AFNetworking-RACExtensions
     - NetWorker/Core
     - ReactiveCocoa (~> 2.0)
@@ -71,7 +71,7 @@ SPEC CHECKSUMS:
   Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
   Expecta+Snapshots: 4a56b9411c6ed156987072e52c39de67d864015a
   FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
-  NetWorker: cd0277705f77e43bb6cc41467ba356c2f3e34219
+  NetWorker: deb98651d68015516aac9436c2a25400630a487b
   ReactiveCocoa: 313fc53cc9aeb2bbbc3f5f13c7eac16478d9af8f
   Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
 

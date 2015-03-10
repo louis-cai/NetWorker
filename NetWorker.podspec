@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NetWorker"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "A short description of NetWorker."
   s.description      = "一个网络请求的隔离层，使用AF。"
   s.homepage         = "https://github.com/louis-cai/NetWorker"
