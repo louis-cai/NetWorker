@@ -26,3 +26,4 @@ cailu, louis.cai.cn@gmail.com
 
 NetWorker is available under the MIT license. See the LICENSE file for more info.
 
+一个网络请求的隔离层，使用AF。
