@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Core/NWHttpRequestSerializer.h

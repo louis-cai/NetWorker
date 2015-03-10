@@ -1,11 +1,17 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
+def import_pods
+    pod "NetWorker", :path => "../"
+    pod "NetWorker/RAC", :path => "../"
+    pod "NetWorker/Logger", :path => "../"
+end
+
 target 'NetWorker', :exclusive => true do
-  pod "NetWorker", :path => "../"
+  import_pods
 end
 
 target 'Tests', :exclusive => true do
-  pod "NetWorker", :path => "../"
+  import_pods
 
   pod 'Specta'
   pod 'Expecta'
